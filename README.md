@@ -8,11 +8,8 @@ Claims cost and denial pattern analysis for **Meridian Health Insurance**, a mid
 
 ## Live Dashboard
 
-[**→ View on Tableau Public**](https://public.tableau.com/app/profile/nurbol.sultanov/viz/MeridianHealthInsuranceClaimsAnalysis/MeridianInsuranceClaims)
-
-## Dashboard Preview
-
 ![Dashboard Overview](dashboard/screenshots/dashboard_overview.png)
+[**→ View on Tableau Public**](https://public.tableau.com/app/profile/nurbol.sultanov/viz/MeridianHealthInsuranceClaimsAnalysis/MeridianInsuranceClaims)
 
 ## Key Findings
 
@@ -31,6 +28,7 @@ Claims cost and denial pattern analysis for **Meridian Health Insurance**, a mid
 
 ## Repository Structure
 
+```
 ├── data/
 │   ├── raw/              # claims.csv
 │   ├── processed/        # 9 aggregated CSVs for Tableau
@@ -41,6 +39,7 @@ Claims cost and denial pattern analysis for **Meridian Health Insurance**, a mid
 │   └── generate_data.py
 └── dashboard/
 └── screenshots/
+```
 
 ## Author
 
